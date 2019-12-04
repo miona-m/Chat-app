@@ -36,7 +36,7 @@ function userMessage(user) {
 function addMessage(username, message) {
     return fetch(`https://coetus.herokuapp.com/api/message`, {
         headers: { "Content-Type": "application/json; charset=utf-8" },
-        method: 'POST',
+        method: 'PUT',
         body: JSON.stringify({
             username: username,
             message: message

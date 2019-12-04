@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(233, 231, 231);
+}
+
+#app{ 
+    border: solid rgb(77, 16, 16);
+    border-width: 5px;
+    margin:40px;
+    margin-left: 100px;
+    margin-right:100px;
+    border-radius: 7px;
+    background-color: rgb(207, 203, 203);
+}
+
+h1{
+    font-family: monospace;
+    font-size: 60px;
+    text-align: center;
+    border: solid rgb(77, 16, 16);
+    border-width: 1px;
+    background-color: rgb(77, 16, 16);;
+    margin:auto auto;
+    color:white;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    margin-right:20px;
+    border: solid rgb(77, 16, 16);
+    border-width: 1px;
+    padding:8px;
+    background-color: rgb(233, 231, 231);
+}
+
+
+#txt-username{
+    margin: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 3px;
+    height: 35px;
+}
+
+body{
+    display: block;
+    margin:0px;
+    text-align: center;    
+}
+
+#txt-message{
+    display: inline-block;
+    position: relative;
+    border:solid rgb(44, 6, 6);
+    width: 380px;
+    height:50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-add-msg, #btn-add-user{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 2px solid rgb(77, 16, 16);
+    border-radius: 5%;
+    ;
+    color: rgb(77, 16, 16);
+    padding: 2px;
+    cursor: pointer;
+}
+#btn-add-msg:hover, #btn-add-user:hover{
+    color: rgb(233, 231, 231);
+    background-color: rgb(77, 16, 16);
+  }
